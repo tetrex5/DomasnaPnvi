@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnndg2uwkakqk"]
+
+[ext_resource type="AudioStream" uid="uid://ctffek8mjr7o1" path="res://Assets/music_zapsplat_game_music_action_agressive_pounding_tense_electro_synth_028.mp3" id="1_n0y7y"]
+
+[node name="PozadinskaMuzika" type="AudioStreamPlayer"]
+stream = ExtResource("1_n0y7y")
+autoplay = true

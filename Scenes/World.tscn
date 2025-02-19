@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://c7ps1bn0bmq84" path="res://Scenes/player.tscn" id="1_ocj4g"]
 [ext_resource type="Script" path="res://Scripts/level1.gd" id="1_u8wss"]
-[ext_resource type="Texture2D" uid="uid://b4m8llf4u547w" path="res://scythian_tombs_puresky_4k.hdr" id="2_gunho"]
+[ext_resource type="Texture2D" uid="uid://b4m8llf4u547w" path="res://Assets/scythian_tombs_puresky_4k.hdr" id="2_gunho"]
 [ext_resource type="PackedScene" uid="uid://dhqggh87hsgs5" path="res://Scenes/Hud.tscn" id="3_6sn4g"]
 [ext_resource type="PackedScene" uid="uid://dpe0w0j31csq5" path="res://Models/GLB format/iron-fence-bar.glb" id="7_neo38"]
 [ext_resource type="PackedScene" uid="uid://1gb2x8yynq6u" path="res://MAPATA/gate.tscn" id="9_8df45"]

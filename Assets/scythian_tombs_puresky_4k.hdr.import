@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4m8llf4u547w"
-path.bptc="res://.godot/imported/scythian_tombs_puresky_4k.hdr-4d9b9f8b0c397b7dc893cd0e1179ff2b.bptc.ctex"
+path.bptc="res://.godot/imported/scythian_tombs_puresky_4k.hdr-6b1151a2bf7cbec2f39aa37ab6a59631.bptc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://scythian_tombs_puresky_4k.hdr"
-dest_files=["res://.godot/imported/scythian_tombs_puresky_4k.hdr-4d9b9f8b0c397b7dc893cd0e1179ff2b.bptc.ctex"]
+source_file="res://Assets/scythian_tombs_puresky_4k.hdr"
+dest_files=["res://.godot/imported/scythian_tombs_puresky_4k.hdr-6b1151a2bf7cbec2f39aa37ab6a59631.bptc.ctex"]
 
 [params]
 

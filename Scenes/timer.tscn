@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cmjaafjjg7j3h"]
 
-[ext_resource type="Script" path="res://panel.gd" id="1_2qsll"]
+[ext_resource type="Script" path="res://Scripts/panel.gd" id="1_2qsll"]
 
 [node name="Timer" type="CanvasLayer"]
 
