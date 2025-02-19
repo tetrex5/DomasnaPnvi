@@ -22,7 +22,7 @@
 [ext_resource type="PackedScene" uid="uid://c55ep0o5eowfg" path="res://Models/House/barricade-window-a.glb" id="18_6252y"]
 [ext_resource type="PackedScene" uid="uid://ci7pk2q007c7m" path="res://Models/GLB format/fence-damaged.glb" id="18_s2r1r"]
 [ext_resource type="PackedScene" uid="uid://00tn6tsvo2f6" path="res://Scenes/Treasure.tscn" id="19_saq67"]
-[ext_resource type="PackedScene" uid="uid://2jvsjbdpt26h" path="res://Scenes/seno.tscn" id="20_hb4k5"]
+[ext_resource type="PackedScene" uid="uid://2jvsjbdpt26h" path="res://MAPATA/seno.tscn" id="20_hb4k5"]
 [ext_resource type="PackedScene" uid="uid://ktl87i0vcafe" path="res://Models/GLB format/coffin-old.glb" id="20_uwj5u"]
 [ext_resource type="PackedScene" uid="uid://c5s6h8nj83nme" path="res://MAPATA/skrsena_klupa.tscn" id="21_tvfjm"]
 [ext_resource type="PackedScene" uid="uid://5n7i3s3ee65o" path="res://Models/GLB format/shovel-dirt.glb" id="22_vg245"]
