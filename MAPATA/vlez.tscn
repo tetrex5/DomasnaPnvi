@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://besun2rxu0vn3"]
+
+[ext_resource type="PackedScene" uid="uid://cph5e7hi0olme" path="res://Models/GLB format/iron-fence-border-gate.glb" id="1_sfrdv"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tln6c"]
+points = PackedVector3Array(0.399961, 0.8239, -0.40001, 0.5, 0.0699218, -0.40001, 0.5, 0.623893, -0.442502, 0.399961, 0.8239, -0.5, -0.400059, 0.8239, -0.40001, 0.5, 0, -0.40001, 0.5, 0.623893, -0.457508, 0.5, 0.0699218, -0.5, -0.400059, 0.8239, -0.5, -0.5, 0.623893, -0.442502, -0.5, 0.0699218, -0.40001, 0.5, 0, -0.5, -0.5, 0, -0.40001, -0.5, 0.0699218, -0.5, -0.5, 0.623893, -0.457508, -0.5, 0, -0.5)
+
+[node name="vlez" type="StaticBody3D"]
+
+[node name="iron-fence-border-gate2" parent="." instance=ExtResource("1_sfrdv")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConvexPolygonShape3D_tln6c")

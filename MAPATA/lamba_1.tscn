@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwccvgu8fh1lt"]
+
+[ext_resource type="PackedScene" uid="uid://x1to61ijyyf6" path="res://Models/GLB format/lightpost-single.glb" id="1_6tx5i"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3sh6o"]
+size = Vector3(0.2, 1.3, 0.2)
+
+[node name="lamba1" type="StaticBody3D"]
+
+[node name="lightpost-single2" parent="." instance=ExtResource("1_6tx5i")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.98023e-08, 0.65, -2.98023e-08)
+shape = SubResource("BoxShape3D_3sh6o")

@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://ccoh03rhnlrri"]
+
+[ext_resource type="PackedScene" uid="uid://sqmwnbh772mx" path="res://Models/GLB format/rocks-tall.glb" id="1_pudjs"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_jpxgk"]
+height = 0.368493
+radius = 0.187667
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_pmdtu"]
+height = 0.37536
+radius = 0.152489
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_wt2h3"]
+height = 0.37536
+radius = 0.139313
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_k0nwy"]
+height = 0.26506
+radius = 0.152489
+
+[node name="Visoki kamenja" type="StaticBody3D"]
+
+[node name="rocks-tall2" parent="." instance=ExtResource("1_pudjs")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0231593, 0.427501, 0.0358203)
+shape = SubResource("CylinderShape3D_jpxgk")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.156738, 0.187992, -0.252522)
+shape = SubResource("CylinderShape3D_pmdtu")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.242857, 0.177893, 0.279725)
+shape = SubResource("CylinderShape3D_wt2h3")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.213906, 0.131534, -0.201639)
+shape = SubResource("CylinderShape3D_k0nwy")

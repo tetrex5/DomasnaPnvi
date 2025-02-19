@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw3njgs31irmd"]
+
+[ext_resource type="PackedScene" uid="uid://blrcfqfwulgws" path="res://Models/GLB format/iron-fence-border.glb" id="1_rey24"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qab33"]
+size = Vector3(1, 0.8, 0.1)
+
+[node name="Portabezkkraj" type="StaticBody3D"]
+
+[node name="iron-fence-border2" parent="." instance=ExtResource("1_rey24")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, -0.45)
+shape = SubResource("BoxShape3D_qab33")

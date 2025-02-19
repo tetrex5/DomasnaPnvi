@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5s6h8nj83nme"]
+
+[ext_resource type="PackedScene" uid="uid://q5bld4bmxguo" path="res://Models/GLB format/bench-damaged.glb" id="1_rn6wx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y1jbr"]
+size = Vector3(0.828284, 0.28949, 0.349292)
+
+[node name="SkrsenaKlupa" type="StaticBody3D"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
+
+[node name="bench-damaged2" parent="." instance=ExtResource("1_rn6wx")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.984808, 0, 0.173648, 0, 1, 0, -0.173648, 0, 0.984808, -0.0425772, 0.156708, -0.0182376)
+shape = SubResource("BoxShape3D_y1jbr")

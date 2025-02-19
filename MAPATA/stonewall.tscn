@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://e46gtse2sde6"]
+
+[ext_resource type="PackedScene" uid="uid://bcx0kp6gm2oes" path="res://Models/GLB format/brick-wall.glb" id="1_ij4is"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jk7mu"]
+size = Vector3(1, 0.7, 0.2)
+
+[node name="Dzid" type="StaticBody3D"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
+
+[node name="brick-wall2" parent="." instance=ExtResource("1_ij4is")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.35, -0.4)
+shape = SubResource("BoxShape3D_jk7mu")

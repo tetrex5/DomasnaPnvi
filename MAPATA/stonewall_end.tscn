@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dg2o7rxl13355"]
+
+[ext_resource type="PackedScene" uid="uid://chiqa5x2yousx" path="res://Models/GLB format/brick-wall-end.glb" id="1_sc34j"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6olsf"]
+size = Vector3(1, 0.8, 0.2)
+
+[node name="StonewallEND" type="StaticBody3D"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
+
+[node name="brick-wall-end2" parent="." instance=ExtResource("1_sc34j")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, -0.4)
+shape = SubResource("BoxShape3D_6olsf")

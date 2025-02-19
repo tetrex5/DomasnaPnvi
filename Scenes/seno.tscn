@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://2jvsjbdpt26h"]
+
+[ext_resource type="PackedScene" uid="uid://cpi8w4wmb72pe" path="res://Models/GLB format/hay-bale.glb" id="1_wrbhi"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v846d"]
+size = Vector3(0.709924, 0.371216, 0.498657)
+
+[node name="Seno" type="StaticBody3D"]
+
+[node name="hay-bale2" parent="." instance=ExtResource("1_wrbhi")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00151974, 0.171936, -0.00360107)
+shape = SubResource("BoxShape3D_v846d")
