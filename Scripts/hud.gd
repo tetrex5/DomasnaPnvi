@@ -9,4 +9,4 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
 	$CoinsLabel.text = str(Global.coins) 
-	#da ni go pokazuva kolku sme sobrale pari vo igrata no los nacin bilo ova
+	#da ni go pokazuva kolku sme sobrale pari vo igrata 
